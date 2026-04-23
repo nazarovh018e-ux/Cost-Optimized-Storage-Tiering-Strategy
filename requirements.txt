@@ -1,0 +1,9 @@
+# StorageTierIQ — Python dependencies
+# Install with:  pip install -r requirements.txt
+# For dev/testing: pip install -r requirements.txt -r requirements-dev.txt
+
+pandas>=2.0
+numpy>=1.24
+matplotlib>=3.7
+seaborn>=0.12        # optional — enhanced chart styling
+tabulate>=0.9        # optional — cleaner table formatting in terminal
