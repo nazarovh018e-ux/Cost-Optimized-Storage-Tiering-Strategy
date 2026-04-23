@@ -111,7 +111,7 @@ def plot_cost_comparison(result: dict, ax: plt.Axes = None) -> plt.Axes:
 
     b1 = ax.bar(x - w/2, storage_costs, w, label="Storage cost",
                 color=[TIER_COLORS[t] for t in tiers], alpha=0.9, edgecolor="white")
-    b2 = ax.bar(x + w/2, retrieval_costs, w, label="Retrieval cost",
+    _b2 = ax.bar(x + w/2, retrieval_costs, w, label="Retrieval cost",
                 color=[TIER_COLORS[t] for t in tiers], alpha=0.4, edgecolor="white",
                 hatch="///")
 

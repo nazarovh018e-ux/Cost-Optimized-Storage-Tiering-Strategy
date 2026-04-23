@@ -22,7 +22,7 @@ from datetime import datetime
 from data_generator import generate_dataset, DATA_TYPES
 from policy_engine import (
     PolicyEngine, TieringPolicy, POLICIES,
-    HOT, WARM, COLD, TIER_ORDER,
+    HOT, WARM, COLD,
 )
 from cost_estimator import CostEstimator, PricingModel, sensitivity_analysis, compare_policies
 
